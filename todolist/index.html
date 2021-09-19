@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Todo List</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- fontawesome  css1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- materialize css1 js1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" integrity="sha512-17AHGe9uFHHt+QaRYieK7bTdMMHBMi8PeWG99Mf/xEcfBLDCn0Gze8Xcx1KoSZxDnv+KnCC+os/vuQ7jrF/nkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<div id="main" class="card">
+				<div class="card-content">
+					<span class="card-title">Task List</span>
+				
+				<div class="row">
+					<form id="task-form" action="" method="">
+						<div class="input-field col-12">
+							<label for="task">New Task</label>
+							<input type="text" name="task" id="task" class=""/>
+						</div>
+						<input type="submit" name="btn" value="Add Task"/>
+					</form>
+				</div>
+			</div>
+				<div class="card-action">
+					<h5>All Tasks</h5>
+					<div class="input-field col-12">
+						<label for="filter">Filter Tasks</label>
+						<input type="text" name="filter" id="filter" class=""/>
+					</div>
+					<ul class="collection"></ul>
+
+					<a href="#" class="btn clear-tasks">Clear Tasks</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- jquery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- materialize css1 js1 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" integrity="sha512-E9vR5BfN3bwSc45BWl95328hvOcBYjMzKAKgdNM59yQXpTC4glztZyVoFJRp5qPc5A95zUZ8D5N7kEwUtJ9f6w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
